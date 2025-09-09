@@ -26,7 +26,7 @@
 
 <body>
     <div id="map"></div>
-    <script>var map = L.map('map', { attributionControl: false }).setView([35.1062, 134.855], 12); L.control.attribution({ prefix: false }).addTo(map); var osm_layer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { minZoom: 5, maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(map); var tilesource_layer = L.tileLayer('https://geo634john.github.io/RoadKill/Tile_10-14/Tile_10-14/{z}/{x}/{y}.png', { minZoom: 8, maxZoom: 18, minNativeZoom: 10, maxNativeZoom: 14, tms: false, attribution: 'Created by QGIS' }).addTo(map);</script>
+    <script>var map = L.map('map', { attributionControl: false }).setView([35.1062, 134.855], 12); L.control.attribution({ prefix: false }).addTo(map); var osm_layer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { minZoom: 5, maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(map); var tilesource_layer = L.tileLayer('{z}/{x}/{y}.png', { minZoom: 8, maxZoom: 18, minNativeZoom: 10, maxNativeZoom: 14, tms: false, attribution: 'Created by QGIS' }).addTo(map);</script>
 </body>
 
 </html>
